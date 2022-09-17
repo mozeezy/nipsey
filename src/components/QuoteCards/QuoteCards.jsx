@@ -1,15 +1,24 @@
 import React from 'react';
-import Card from '../Card/Card'
+import QuoteCard from '../QuoteCard/QuoteCard';
+import { Grid, Grow, Typography } from '@material-ui/core';
 
-const QuoteCards = (props) => {
-  const quote = props.quote;
+import useStyles from './styles'
+
+const QuoteCards = ({quote}) => {
+  const classes = useStyles();
+
   console.log(quote);
   return (
-    <div>
-      {quote.map((item, index) => (
-        <Card />
-      ))}
-    </div>
+    <Grow in>
+        <Grid className={classes.container} container alignItems="stretch" spacing={3}>
+          {quote.map((item, index) => (
+            <Grid item xs={12} sm={6} md={4} lg={3} style={{display: 'flex'}}>
+              <QuoteCard item={item} index={index} />
+            </Grid>
+          ))}
+        </Grid>
+
+    </Grow>
   )
 }
 

@@ -5,16 +5,13 @@ import logo from "./nipsey-logo.png";
 import QuoteCards from "./components/QuoteCards/QuoteCards";
 import useStyles from "./styles";
 
-const alanAPIKey =
-  "ad3f902c08ba1bf8144e10672821a09d2e956eca572e1d8b807a3e2338fdd0dc/stage";
-
 const App = () => {
   const [newQuote, setNewQuote] = useState([]);
   const classes = useStyles();
 
   useEffect(() => {
     alanBtn({
-      key: alanAPIKey,
+      key: process.env.REACT_APP_ALAN_API_KEY,
       onCommand: ({ command, body }) => {
         if (command === "newQuote") {
           const alanQuote = JSON.parse(body);

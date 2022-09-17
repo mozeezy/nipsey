@@ -16,7 +16,6 @@ const QuoteCard = ({ item, index }) => {
         </CardContent>
         <CardActions className={classes.cardActions}>
           <Button size="small" color="primary"></Button>
-          <Typography className={classes.card} color="textSecondary">{index + 1}</Typography>
         </CardActions>
       </CardActionArea>
     </Card>

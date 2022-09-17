@@ -12,7 +12,7 @@ const QuoteCards = ({ quote }) => {
       <Grow in>
       <Grid className={classes.container} container alignItems="stretch" spacing={3}>
         <Grid item xs={12} sm={6} md={4} lg={3} className={classes.infoCard}>
-          <div className={classes.card} style={{backgroundColor: "#62a7c8"}}>
+          <div className={classes.card} style={{backgroundColor: "#915F6D"}}>
             <Typography variant="h6">Click on the Microphone Icon Below and Try Saying: <br /> <i>Give me the Word of the Day</i> <br /> or <br />  <i>Give me the Quote of the Day</i></Typography>
           </div>
         </Grid>

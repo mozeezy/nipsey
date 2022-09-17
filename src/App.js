@@ -20,6 +20,9 @@ const App = () => {
           const alanQuote = JSON.parse(body);
           setNewQuote(alanQuote);
         }
+        if (command === "goingBack") {
+          setNewQuote([]);
+        }
       },
     });
   }, []);

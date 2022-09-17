@@ -6,7 +6,8 @@ body {
 
 body {
   margin: 0;
-  background-color: whitesmoke;
+  background-color: #5d3fd3;
+  background-image: url(https://www.transparenttextures.com/patterns/bright-squares.png);
 }
 
 * {

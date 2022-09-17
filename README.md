@@ -13,3 +13,17 @@ After the quote is fetched, Nipsey will ask if it can read the quote for you. Si
 ## To deactivate Nipsey
 
 To stop Nipsey from picking up your voice, just click the microphone icon on the bottom right of the screen to deactivate Nipsey.
+
+## Product Screenshots
+
+#### Desktop Version
+
+![Desktop Version](https://github.com/mozeezy/nipsey/blob/main/public/images/nipsey-desktop.png?raw=true)
+
+#### iPad Version
+
+![iPad](https://github.com/mozeezy/nipsey/blob/main/public/images/nipsey-ipad.png?raw=true)
+
+#### iPhone Version
+
+![iPhone](https://github.com/mozeezy/nipsey/blob/main/public/images/nipsey-iphone.png?raw=true)

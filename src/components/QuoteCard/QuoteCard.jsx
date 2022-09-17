@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
+import { Card, CardActions, CardActionArea, CardContent, Button, Typography } from '@material-ui/core';
 
 import useStyles from './styles';
 
@@ -9,7 +9,7 @@ const QuoteCard = ({ item, index }) => {
     <Card className={classes.card}>
       <CardActionArea>
         <div className={classes.details}>
-          <Typography  variant="body2" color="textSecondary" component="h2"><i>{item.q}</i></Typography>
+          <Typography  variant="body2" color="textPrimary" component="h2"><i>{item.q}</i></Typography>
         </div>
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p"> - {item.a}</Typography>

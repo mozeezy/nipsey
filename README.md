@@ -1,6 +1,6 @@
 # Introducing Nipsey - get an inspirational quote using your voice only!
 
-This project was created using React and Alan Studio on the backend to parse voice commands.
+This project was created using React and Alan Studio on the backend to interpret voice commands.
 
 ## How to use
 

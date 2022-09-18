@@ -1,10 +1,14 @@
 # Introducing Nipsey - get an inspirational quote using your voice only!
 
-This project was created using React and Alan Studio on the backend to interpret voice commands.
+Nipsey is a voice assistant app that gives you a random inspirational quote using your voice only. For this app, I built the front-end using ReactJS and materialUI to assist with styling the page. 
+
+The voice commands were handled using Alan Studio, which is Alan AI's online web IDE/code editor and is therefore abstracted from the user. To view the code I used to handle voice commands, go to this gist here: https://gist.github.com/mozeezy/842aa99a31ee10e58ad702b637497440
 
 ## How to use
 
-Simply click the microphone icon on the bottom right to activate Nipsey and say "Give me the word of the day" or "Give me the quote of the day" once you hear the tone.
+- Go to: https://nipsey.netlify.app/
+
+- Simply click the microphone icon on the bottom right to activate Nipsey and say "Give me the word of the day" or "Give me the quote of the day" once you hear the tone.
 
 ## Have Nipsey read the quote for you using your voice!
 

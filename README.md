@@ -1,8 +1,8 @@
 # Introducing Nipsey - get an inspirational quote using your voice only!
 
-Nipsey is a voice assistant app that gives you a random inspirational quote using your voice only. For this app, I built the front-end using ReactJS and materialUI to assist with styling the page. 
+Nipsey is a voice assistant app that gives you a random inspirational quote using your voice only. For this app, I built the front-end using ReactJS and materialUI to assist with styling the page.
 
-The voice commands were handled using Alan Studio, which is Alan AI's online web IDE/code editor and is therefore abstracted from the user. To view the code I used to handle voice commands, go to this gist here: https://gist.github.com/mozeezy/842aa99a31ee10e58ad702b637497440
+The voice commands were handled using Alan Studio, which is Alan AI's online web IDE/code editor and is therefore abstracted from the user. To view the code I used to handle voice commands, [go to this gist here](https://gist.github.com/mozeezy/842aa99a31ee10e58ad702b637497440)
 
 ## How to use
 

@@ -14,7 +14,7 @@ The voice commands/dialogue were handled using Alan Studio, which is Alan AI's o
 
 - Ask Nipsey other questions from [this script here](https://gist.github.com/mozeezy/015ff93e5b14f6a3238381903b7db76f)
 
-## Have Nipsey read the quote for you using your voice!
+## Have Nipsey read the quote for you using your voice as a command!
 
 After the quote is fetched, Nipsey will ask if it can read the quote for you. Simply say "yes" if you wish for the quote to be read to you, or "no" if you don't.
 

@@ -10,9 +10,13 @@ The voice commands/dialogue were handled using Alan Studio, which is Alan AI's o
 
 - Simply click the microphone icon on the bottom right to activate Nipsey and say "Give me the word of the day" or "Give me the quote of the day" once you hear the tone.
 
+- You can even have Nipsey give you responses to some casual conversations. Try asking: "How old are you?"
+
+- Ask Nipsey other questions from [this script here](https://gist.github.com/mozeezy/015ff93e5b14f6a3238381903b7db76f)
+
 ## Have Nipsey read the quote for you using your voice!
 
-After the quote is fetched, Nipsey will ask if it can read the quote for you. Simply say "yes" if you wish for the quote to be read to you, or "no" if you don't
+After the quote is fetched, Nipsey will ask if it can read the quote for you. Simply say "yes" if you wish for the quote to be read to you, or "no" if you don't.
 
 ## To deactivate Nipsey
 

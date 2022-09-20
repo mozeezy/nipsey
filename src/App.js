@@ -5,6 +5,8 @@ import logo from "./nipsey-logo.png";
 import QuoteCards from "./components/QuoteCards/QuoteCards";
 import useStyles from "./styles";
 
+import { AiFillGithub } from "react-icons/ai";
+
 const App = () => {
   const [newQuote, setNewQuote] = useState([]);
   const classes = useStyles();
@@ -28,6 +30,14 @@ const App = () => {
       <div className={classes.logoContainer}>
         <img src={logo} alt="nipsey-logo" className={classes.nipseyLogo} />
       </div>
+      <a
+        href="https://github.com/mozeezy/nipsey"
+        rel="noreferrer"
+        target="_blank"
+        style={{ display: "flex", justifyContent: "center", fontSize: "2rem" }}
+      >
+        <AiFillGithub />
+      </a>
       <QuoteCards quote={newQuote} />
     </div>
   );
